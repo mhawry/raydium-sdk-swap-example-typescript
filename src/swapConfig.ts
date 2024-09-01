@@ -6,6 +6,6 @@ export const swapConfig = {
   tokenBAddress: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", // USDC address
   maxLamports: 1500000, // Micro lamports for priority fee
   direction: "in" as "in" | "out", // Swap direction: 'in' or 'out'
-  liquidityFile: "trimmed_mainnet.json",
+  liquidityFile: "../trimmed_mainnet.json",
   maxRetries: 20,
 };

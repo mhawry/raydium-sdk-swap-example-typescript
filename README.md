@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a target="_blank" href="https://chainstack.com/build-better-with-ethereum/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Ethereum.svg" /></a>&nbsp;  
+  <a target="_blank" href="https://chainstack.com/build-better-with-ethereum/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Ethereum.svg" /></a>&nbsp;
   <a target="_blank" href="https://chainstack.com/build-better-with-bnb-smart-chain/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/BNB.svg" /></a>&nbsp;
   <a target="_blank" href="https://chainstack.com/build-better-with-polygon/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Polygon.svg" /></a>&nbsp;
   <a target="_blank" href="https://chainstack.com/build-better-with-avalanche/"><img src="https://github.com/soos3d/blockchain-badges/blob/main/protocols_badges/Avalanche.svg" /></a>&nbsp;
@@ -36,7 +36,7 @@ Now that you have the the 500 MB `mainnet.json` that has the entrirety of info o
 ts-node src/trimMainnet.ts
 ```
 
-This will produce `src/trimmed_mainnet.json` that takes less than a second to load vs minutes for `mainnet.json`.
+This will produce `trimmed_mainnet.json` that takes less than a second to load vs minutes for `mainnet.json`.
 
 Make sure you have the Chainstack node & your private key set in `.env`. Make sure you have all dependencies installed with `yarn`.
 
